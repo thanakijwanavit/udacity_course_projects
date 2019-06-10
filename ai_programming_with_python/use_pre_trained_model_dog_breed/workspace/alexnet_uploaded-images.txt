@@ -1,0 +1,90 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = alexnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 6 key-value pairs.
+Below are 6 of them:
+ 1 key:                   table_01.jpg  label:                      table
+ 2 key:                    horse_1.jpg  label:                      horse
+ 3 key:                Flamingo_01.jpg  label:                   flamingo
+ 4 key:              Pomeranian_01.jpg  label:                 pomeranian
+ 5 key:         alaskan_malamute_1.jpg  label:           alaskan malamute
+ 6 key:              Pomeranian_02.jpg  label:                 pomeranian
+
+     MATCH:
+
+             Pomeranian_01.jpg: 
+Real:                 pomeranian   Classifier:                     pomeranian
+
+        alaskan_malamute_1.jpg: 
+Real:           alaskan malamute   Classifier: malamute, malemute, alaskan malamute
+
+ NOT A MATCH:
+
+                  table_01.jpg: 
+Real:                      table   Classifier:    pedestal, plinth, footstall
+
+                   horse_1.jpg: 
+Real:                      horse   Classifier:                         sorrel
+
+               Flamingo_01.jpg: 
+Real:                   flamingo   Classifier:                       red wine
+
+             Pomeranian_02.jpg: 
+Real:                 pomeranian   Classifier:                chow, chow chow
+
+# Total Images 6 # Matches: 2 # NOT Matches: 4
+
+     MATCH:
+
+             Pomeranian_01.jpg: 
+Real:                 pomeranian   Classifier:                     pomeranian  
+PetLabelDog: 1  ClassLabelDog: 1
+
+        alaskan_malamute_1.jpg: 
+Real:           alaskan malamute   Classifier: malamute, malemute, alaskan malamute  
+PetLabelDog: 1  ClassLabelDog: 1
+
+ NOT A MATCH:
+
+                  table_01.jpg: 
+Real:                      table   Classifier:    pedestal, plinth, footstall  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                   horse_1.jpg: 
+Real:                      horse   Classifier:                         sorrel  
+PetLabelDog: 0  ClassLabelDog: 0
+
+               Flamingo_01.jpg: 
+Real:                   flamingo   Classifier:                       red wine  
+PetLabelDog: 0  ClassLabelDog: 0
+
+             Pomeranian_02.jpg: 
+Real:                 pomeranian   Classifier:                chow, chow chow  
+PetLabelDog: 1  ClassLabelDog: 1
+
+# Total Images 6 # Matches: 2 # NOT Matches: 4
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  6  N Dog Images:  3  N NotDog Images:  3 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  66.7
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  6  N Dog Images:  3  N NotDog Images:  3 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  66.7
+
+
+*** Results Summary for CNN Model Architecture ALEXNET ***
+N Images            :   6
+N Dog Images        :   3
+N "Not-a" Dog Images:   3
+% Correct Dogs      : 100.0
+% Correct Breed     : 66.7
+% Correct "Not-a" Dog: 100.0
+% Match (this includes both dogs and not-a dog): 33.3
+
+INCORRECT Dog Breed Assignment:
+Real:                 pomeranian   Classifier:                chow, chow chow
+
+** Total Elapsed Runtime: 0:0:0

@@ -1,0 +1,3 @@
+[submodule "machine_engineer/pip_package_practice.git"]
+	path = machine_engineer/pip_package_practice.git
+	url = git@github.com:thanakijwanavit/pip_package_practice.git

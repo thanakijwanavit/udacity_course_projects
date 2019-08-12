@@ -7,3 +7,6 @@
 [submodule "computer_vision/exercise"]
 	path = computer_vision/exercise
 	url = git@github.com:thanakijwanavit/computer_vision.git
+[submodule "machine_engineer/sentiment_analysis"]
+	path = machine_engineer/sentiment_analysis
+	url = git@github.com:thanakijwanavit/sentiment_analysis_ai.git

@@ -4,3 +4,6 @@
 [submodule "ios_development/pitch_perfect"]
 	path = ios_development/pitch_perfect
 	url = git@github.com:thanakijwanavit/pitch_perfect.git
+[submodule "computer_vision/exercise"]
+	path = computer_vision/exercise
+	url = git@github.com:thanakijwanavit/computer_vision.git

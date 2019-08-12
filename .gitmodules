@@ -10,3 +10,6 @@
 [submodule "machine_engineer/sentiment_analysis"]
 	path = machine_engineer/sentiment_analysis
 	url = git@github.com:thanakijwanavit/sentiment_analysis_ai.git
+[submodule "artificial_intelligence"]
+	path = artificial_intelligence
+	url = git@github.com:thanakijwanavit/artificial_intelligence.git
